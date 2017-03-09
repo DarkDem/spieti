@@ -4,11 +4,12 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<!-- mock css -->
-		<style>
+		<!--<style>
                 body {background-color: powderblue;}
                 h1   {color: blue;}
                 p    {color: red;}
-                </style>
+                </style>-->
+		<link rel="stylesheet" type="text/css" href="/css/mainpost.css">
 		<script type="text/javascript" src = "../js/spiejs.js"></script>
 		
 		
@@ -28,13 +29,44 @@
     		</ul>
 		</nav>
 		</div>
-		<div class="container">
+		<!-- new addition -->
+		<div id="main">
+			<div class="container">
+			<section class="wrapper style1">
+			<div class="inner">
+			<!-- 2 Columns -->
+			<div class="flex flex-2">
+			<div class="col col1">
+			<!--<div class="image round fit">
+		        <a href="generic.html" class="link"><img src="../css/images/pic01.jpg" alt="" /></a>
+			</div>-->
+			</div>
+			<div class="col col2">
+			
+			{{ content }}
+			
+			
+		        </div>
+			</div>
+			</div>
+			</section>
+			</div><!-- /.container -->
+			</div>
+			
+		        <div>
+				<a href="https://darkdem.github.io/blog/"><center>Go back to the list</center></a>
+</div>
+		<!-- end -->
+
+		
+		
+		<!--<div class="container">
     		<div class="blurb">
         
         		{{ content }}
             
     		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+		<!--</div><!-- /.container -->
 		<footer>
     		<ul>
         		<li><a href="mailto:spietechnoindia@gmail.com">email</a></li>
