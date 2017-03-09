@@ -1,5 +1,5 @@
 ---
-layout: defaultt
+layout: post
 title: "SPIETI's first story"
 date: 2017-1-23
 ---
